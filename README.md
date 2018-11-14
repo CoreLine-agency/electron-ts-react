@@ -13,22 +13,20 @@ Make sure to check out [`electron-webpack`'s documentation](https://webpack.elec
 ## Getting Started
 Simply clone down this reposity, install dependencies, and get started on your application.
 
-# install dependencies
-yarn
-```
+# Install dependencies
 
 ### Development Scripts
 
 ```bash
 # run application in development mode
-yarn dev
+npm run dev
 
 # compile source code and create webpack output
-yarn compile
+npm run compile
 
 # `yarn compile` & create build with electron-builder
-yarn dist
+npm run dist
 
 # `yarn compile` & create unpacked build with electron-builder
-yarn dist:dir
+npm run dist:dir
 ```
